@@ -1,0 +1,15 @@
+{
+    "name": "shortcut maker",
+    "description": "Create web shortcuts in one click",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["tabs", "downloads"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/link16.png",
+        "32": "/images/link32.png",
+        "48": "/images/link48.png"
+    }
+}
