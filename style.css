@@ -19,17 +19,17 @@ span {
     border-radius: 5px;
     margin-left: 2px;
     transition: 200ms;
+    user-select: all;
 }
 
 span:hover {
     background: rgba(0, 0, 0, 0.15);
 }
 
-#executeButton {
+.image-box {
     font-size: 20px;
     height: 30px;
     width: 30px;
-    background: rgba(0, 0, 0, 0.1);
     margin: 6px;
     border-radius: 5px;
     display: flex;
@@ -38,29 +38,19 @@ span:hover {
     transition: 200ms;
 }
 
-#executeButton:hover {
+#execute-button {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+#execute-button:hover {
     background: rgba(0, 0, 0, 0.15);
 }
 
-#executeButton:active {
+#execute-button:active {
     transform: scale(0.9);
 }
 
-/* button {
-    height: 30px;
-    width: 30px;
-    outline: none;
-    margin: 5px;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    font-size: 15px;
-    border: none;
+img {
+    width: 25px;
+    height: 25px;
 }
-
-button:hover {
-    transform: scale(1.05);
-}
-
-button:active {
-    transform: scale(0.95);
-} */
